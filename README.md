@@ -1,1 +1,7 @@
 # State-Augmented-Routing-Wireless-Communication
+
+This repository represents our work on State Augmentation based routing policy optimizaiton using Graph Neural Networks (GNNs) for wireless communication networks. 
+
+# Abstract
+
+This work addresses the challenge of packet-based information routing in large-scale wireless communication networks. The problem is framed as a constrained statistical learning task, where each network node operates using only local information. Opportunistic routing exploits the broadcast nature of wireless communication to dynamically select optimal forwarding nodes, enabling the information to reach the destination through multiple relay nodes simultaneously. To solve this, we propose a State-Augmentation (SA) based distributed optimization approach aimed at maximizing the total information handled by the source nodes in the network. The problem formulation leverages Graph Neural Networks (GNNs), which perform graph convolutions based on the topological connections between network nodes. Using an unsupervised learning paradigm, we extract routing policies from the GNN architecture, enabling optimal decisions for source nodes across various flows. Numerical experiments demonstrate that the proposed method achieves superior performance when training a GNN-parameterized model, particularly when compared to baseline algorithms. Additionally, applying the method to real-world network topologies and wireless ad-hoc network test beds validates its effectiveness, highlighting the robustness and transferability of GNNs.
